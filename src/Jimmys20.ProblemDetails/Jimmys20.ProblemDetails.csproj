@@ -1,6 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Version>1.0.1</Version>
     <TargetFramework>net5.0</TargetFramework>
     <Authors>Maragkos Dimitrios</Authors>
     <RepositoryUrl>https://github.com/Jimmys20/ProblemDetails</RepositoryUrl>
@@ -8,6 +9,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/Jimmys20/ProblemDetails</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>Utility library for handling Problem Details error responses in .NET applications.</Description>
   </PropertyGroup>
 
 </Project>
