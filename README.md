@@ -1,5 +1,7 @@
 # ProblemDetails [![NuGet](https://img.shields.io/nuget/v/Jimmys20.ProblemDetails.svg)](https://www.nuget.org/packages/Jimmys20.ProblemDetails)
 
+Utility library for handling [Problem Details](https://datatracker.ietf.org/doc/html/rfc7807) error responses in .NET applications.
+
 ## Installation
 
 > Install-Package Jimmys20.ProblemDetails
