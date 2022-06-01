@@ -1,4 +1,8 @@
-# ProblemDetails
+# ProblemDetails [![NuGet](https://img.shields.io/nuget/v/Jimmys20.ProblemDetails.svg)](https://www.nuget.org/packages/Jimmys20.ProblemDetails)
+
+## Installation
+
+> Install-Package Jimmys20.ProblemDetails
 
 ## Usage
 
