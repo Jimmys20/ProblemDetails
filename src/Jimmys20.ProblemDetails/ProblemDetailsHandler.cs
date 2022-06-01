@@ -17,8 +17,8 @@ namespace Jimmys20.ProblemDetails
             }
             else
             {
-                var problemDetails = await response.Content.ReadFromJsonAsync<ProblemDetails>(cancellationToken: cancellationToken);
-                throw new ProblemDetailsException(problemDetails);
+                var problem = await response.Content.ReadFromJsonAsync<ProblemDetails>(cancellationToken: cancellationToken);
+                throw new ProblemDetailsException(problem);
             }
         }
     }
