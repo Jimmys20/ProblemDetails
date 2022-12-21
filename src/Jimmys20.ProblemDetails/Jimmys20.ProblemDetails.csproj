@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>1.0.2</Version>
-    <TargetFramework>net6.0</TargetFramework>
+    <Version>1.0.3</Version>
+    <TargetFramework>net7.0</TargetFramework>
     <Authors>Maragkos Dimitrios</Authors>
     <RepositoryUrl>https://github.com/Jimmys20/ProblemDetails</RepositoryUrl>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -10,6 +10,11 @@
     <PackageProjectUrl>https://github.com/Jimmys20/ProblemDetails</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>Utility library for handling Problem Details error responses in .NET applications.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
