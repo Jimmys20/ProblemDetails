@@ -3,7 +3,6 @@
 
 // Copied from https://raw.githubusercontent.com/dotnet/aspnetcore/main/src/Http/Http.Extensions/src/ProblemDetails.cs.
 
-using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
 namespace Jimmys20.ProblemDetails

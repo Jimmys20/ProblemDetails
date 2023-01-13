@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Jimmys20.ProblemDetails
+﻿namespace Jimmys20.ProblemDetails
 {
     public class ProblemDetailsException : Exception
     {
