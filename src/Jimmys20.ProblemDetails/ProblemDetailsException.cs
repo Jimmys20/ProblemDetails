@@ -1,12 +1,11 @@
-﻿namespace Jimmys20.ProblemDetails
-{
-    public class ProblemDetailsException : Exception
-    {
-        public ProblemDetailsException(ProblemDetails problem)
-        {
-            Problem = problem;
-        }
+﻿namespace Jimmys20.ProblemDetails;
 
-        public ProblemDetails Problem { get; }
+public class ProblemDetailsException : Exception
+{
+    public ProblemDetailsException(ProblemDetails problem)
+    {
+        Problem = problem;
     }
+
+    public ProblemDetails Problem { get; }
 }
