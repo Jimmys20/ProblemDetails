@@ -1,7 +1,7 @@
 // Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-// Copied from https://github.com/dotnet/aspnetcore/blob/ec21b597bc5471ea0271493a3fb168e0beb0fb44/src/Http/Http.Abstractions/src/ProblemDetails/ProblemDetails.cs.
+// Copied from https://github.com/dotnet/aspnetcore/blob/eb68e016a554b4da50d7fb0aeffe897cfabf36c7/src/Http/Http.Abstractions/src/ProblemDetails/ProblemDetails.cs.
 
 using System.Text.Json.Serialization;
 
@@ -20,6 +20,7 @@ public class ProblemDetails
     /// </summary>
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     [JsonPropertyOrder(-5)]
+    [JsonPropertyName("type")]
     public string Type { get; set; }
 
     /// <summary>
@@ -29,6 +30,7 @@ public class ProblemDetails
     /// </summary>
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     [JsonPropertyOrder(-4)]
+    [JsonPropertyName("title")]
     public string Title { get; set; }
 
     /// <summary>
@@ -36,6 +38,7 @@ public class ProblemDetails
     /// </summary>
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     [JsonPropertyOrder(-3)]
+    [JsonPropertyName("status")]
     public int? Status { get; set; }
 
     /// <summary>
@@ -43,6 +46,7 @@ public class ProblemDetails
     /// </summary>
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     [JsonPropertyOrder(-2)]
+    [JsonPropertyName("detail")]
     public string Detail { get; set; }
 
     /// <summary>
@@ -50,6 +54,7 @@ public class ProblemDetails
     /// </summary>
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     [JsonPropertyOrder(-1)]
+    [JsonPropertyName("instance")]
     public string Instance { get; set; }
 
     /// <summary>
